@@ -39,7 +39,7 @@ Then:
    If not check the ordering of ./CT_dipole_FO.inp
    e.g. for job.dimer_sfo.inp 
      
-                   MINE                                                                ADF 
+                   This program                                                           ADF 
    -------------------------------------------------------------------------------------------------------------------------------------
    *------------------------------------*                  |    Transition dipole moments mu (x,y,z) in a.u.
     Working on exitation           1                       |    (weak excitations are not printed)
