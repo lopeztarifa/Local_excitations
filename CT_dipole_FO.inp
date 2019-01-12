@@ -1,0 +1,13 @@
+CT DIPO       ! #1 CT for calculation, #2 DIPO for Dipole calculation 
+GGA           ! functional type: GGA or HYBRID 
+10, 18, 5     ! #of occupied orbitals, #of virtual orbitals, #of exitations 
+6             ! #of atoms
+2             ! #of fragments
+1 2 3         ! composition of the fragment
+4 5 6         ! composition of the fragment 
+1 10          ! for each of the atoms (in the order of ADF output), it is specified the number of orbitals 
+4 10
+2 2
+3 2
+5 2
+6 2
