@@ -1,3 +1,5 @@
+Spaghetti code to read TAPE21 (and TAPE15) files from a LR-TDDFT calculation. It provides the CT number
+
 -) How it works:
 ##################################
 
