@@ -1,6 +1,6 @@
 #!/bin/bash
 #######################################################################
-# Stupid bash driver to generate D.dat and coeff_sfos.dat files needed#
+# Bash driver to generate D.dat and coeff_sfos.dat files needed       #
 # to run density_matrix_AO.f90.                                       #
 # Additionally it also creates:                                       #
 # -) exc_energies.dat, file including the oscillator strengths.       #
