@@ -1,4 +1,10 @@
-Spaghetti code to read TAPE21 (and TAPE15) files from a LR-TDDFT calculation. It provides the CT number
+Spaghetti code to read TAPE21 (and TAPE15) files from ADF LR-TDDFT calculation. It provides the CT number based on the analysis proposed by F. Plasser and H. Lischka JCTC, 9, 2777, (2012). 
+
+Mainly, driver_td_analy.sh Bash file drives the two python files to read the TAPEs and the fortran CT_dipole_FO.f90 file that makes the CT calculation. 
+ 
+It requires the installation of qmworks (eScience) and blas/lapack libraries. 
+
+
 
 -) How it works:
 ##################################
