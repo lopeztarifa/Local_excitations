@@ -1,10 +1,8 @@
 Spaghetti code to read TAPE21 (and TAPE15) files from ADF LR-TDDFT calculation. It provides the CT number based on the analysis proposed by F. Plasser and H. Lischka JCTC, 9, 2777, (2012). 
 
-Mainly, driver_td_analy.sh Bash file drives the two python files to read the TAPEs and the fortran CT_dipole_FO.f90 file that makes the CT calculation. 
+Mainly, driver_td_analy.sh bash file drives the two python scripts to read the TAPEs and the fortran CT_dipole_FO.f90 file that makes the CT calculation. 
  
 It requires the installation of qmworks (eScience) and blas/lapack libraries. 
-
-
 
 -) How it works:
 ##################################
@@ -29,19 +27,19 @@ Then:
                            CT                 Program
        ------------------------------------------------
        1st exciatation: 0.938584             Theodore
-      	          0.93858084360775462  Mine
+      	                 0.938580             This program
       
        2nd exciatation: 0.792798             Theodore 
-      	          0.79282030238242851  Mine
+      	                 0.792820             This program
       
        3rd exciatation: 0.062706             Theodore 
-      	          0.062694666863205697 Mine 
+      	                 0.062694             This program
       
        4th exciatation: 0.236759             Theodore 
-                        0.23670717540757200  Mine
+                        0.2367071            This program
       
        5th exciatation: 0.998351             Theodore 
-                        0.99835442743852254  Mine
+                        0.9983544            This program
 
 -) If you use predefine fragments the accuracy is always fine wrt to SFOTRAN (theodore is not compatible with this fashion).
    If not check the ordering of ./CT_dipole_FO.inp
