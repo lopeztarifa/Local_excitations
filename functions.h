@@ -1,4 +1,4 @@
-# FUNCTIONS for helping out driver_td_analy.sh 
+# FUNCTIONS helping driver_td_analy.sh 
 # PLT&LV@VU(2016) 
 print_info () { if [ $1 == python ] ; then echo "#### Python-plams has finished"; fi
                 if [ $1 == adf ] ; then echo "#### Looking for information in ADF output ..."; fi
